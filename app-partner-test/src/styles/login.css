@@ -1,0 +1,80 @@
+.login-bg {
+	background-image: url("../APReactTest/onboarding-bg.png");
+	height:100vh;
+}
+
+.form-buttons{
+	margin: 0 auto;
+	margin-top:10em;
+	margin-bottom:2em;
+}
+
+.form-button {
+	color:white;
+	margin-right:3em;
+	display: inline;
+}
+
+.form-button:hover {
+	cursor:pointer;
+}
+
+.form-log {
+	width: 18%;
+	margin: 0 auto;
+	text-align:center;
+	background-color:rgba(0, 0, 0, 0.1);
+	border-radius:20px;
+}
+
+.iconImg {
+	height:2.38em;
+	background-color:rgba(0, 0, 0, 0);
+	border:0;
+	border-radius:20px;
+}
+
+.icon {
+	height:1em;
+}
+
+.input-log {
+	color:white;
+	background-color:rgba(0, 0, 0, 0);
+	border:0;
+	border-radius:20px;
+}
+
+.input-log::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+.input-log:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+.input-log::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+.input-log:-ms-input-placeholder {  
+color: white !important;  
+}
+
+.log-button {
+	background-color:#e43c4b;
+	border:none;
+	border-radius:50PX;
+	width:13em;
+	font-weight:600;
+}
+
+@media (max-width:1100px) {
+	.form-log {
+		width: 16.5em;
+		margin: 0 auto;
+		text-align:center;
+		background-color:rgba(0, 0, 0, 0.1);
+		border-radius:20px;
+	}
+}

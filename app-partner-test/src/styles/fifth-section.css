@@ -1,0 +1,49 @@
+.fifth-section {
+	text-align:center;
+	margin-bottom:6em;
+}
+
+.subscribe-form { 
+	position:relative;
+	left:15px;
+	margin: 0 auto; 
+	width:33em;
+}
+
+.input {
+	height:4em;
+}
+
+.sub-button {
+	position:relative;
+	right:20px;
+	font-weight:600;
+	border:0px;
+	width:10em;
+	height:4em;
+	border-radius:30px;
+	background-color:#1e3656;
+	color:white;
+}
+
+@media (max-width:1100px) {
+	.subscribe-form {
+		width:18em;
+	}
+
+	.input {
+		height:4em;
+	}
+
+	.sub-button {
+		position:relative;
+		right:20px;
+		font-weight:600;
+		border:0px;
+		width:6em;
+		height:4em;
+		border-radius:30px;
+		background-color:#1e3656;
+		color:white;
+	}
+}

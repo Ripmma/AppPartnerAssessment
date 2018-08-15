@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  padding-top:3.3em;
+  font-weight: bold;
+  font-size:50px;
+  letter-spacing:0.6px;
+  color:#ffffff;	
+}
+
+h2 {
+  color:#e43c4b;
+  font-weight:bold;
+  font-size:32px;
+  text-align:center;
+  letter-spacing:0.4px;
+  padding-top:60px;
+}
+
+h3 {
+	font-weight:bold;
+	font-size:24px;
+	color:#272727;
+	letter-spacing:0.3px;
+}
+
+h4 {
+	color:#272727;
+	font-size:20px;
+	letter-spacing:0.2px;
+}
+
+h5 {
+	font-weight: bold;
+	font-size:18px;
+	color:#413d3d;
+	text-align:center;
+	letter-spacing:0.2px;
+}
+
+p {
+	font-size:16px;
+	color:#1e3656;
+	letter-spacing:0.2px;
+}
+
+a {
+	color:white;
+}
+
+a:hover {
+	color:white;
+	text-decoration:underline;
+}
+
+/* AppNavbar.js */
+.nav-css {
+  font-weight: bold;
+}

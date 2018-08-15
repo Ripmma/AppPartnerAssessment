@@ -1,0 +1,14 @@
+.about {
+  margin:5.5em 0;
+}
+
+.right-side-text {
+  line-height:20px;
+}
+
+@media (max-width: 600px) { 
+  .right-side-text {
+  	position:relative;
+  	top:30px;
+  }
+}

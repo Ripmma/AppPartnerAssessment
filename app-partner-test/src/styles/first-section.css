@@ -1,0 +1,8 @@
+.jumbotron {
+  margin:0;
+  padding:0;
+  background-image: url("../APReactTest/banner.png");
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  height:30em;
+}
