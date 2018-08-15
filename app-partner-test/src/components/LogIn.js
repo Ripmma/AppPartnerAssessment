@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import AppNavbar from './AppNavbar';
 import axios from 'axios';
 import { 
-  Container,
   Jumbotron, 
-  Row, 
-  Col, 
   Input,
   InputGroupAddon,
   InputGroupText, 
@@ -14,7 +11,6 @@ import {
 
 import '../styles/login.css';
 
-import logInBackground from '../APReactTest/onboarding-bg.png';
 import emailIc from '../APReactTest/ic-email.png';
 import passwordIc from '../APReactTest/ic-password.png';
 import usernameIc from '../APReactTest/ic-username.png';
@@ -82,7 +78,7 @@ class LogIn extends Component {
                   <div className="form-log">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText className="iconImg">
-                        <img className="icon" src={usernameIc} />
+                        <img className="icon" src={usernameIc} alt="Icon1Sign" />
                       </InputGroupText>
                       <Input onChange={this.handleChange} className="input-log" name="username" placeholder="Username" />
                     </InputGroupAddon>
@@ -91,7 +87,7 @@ class LogIn extends Component {
                   <div className="form-log">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText className="iconImg">
-                        <img className="icon" src={emailIc} />
+                        <img className="icon" src={emailIc} alt="Icon2Sign" />
                       </InputGroupText>
                       <Input onChange={this.handleChange} className="input-log" name="email" placeholder="Email" />
                     </InputGroupAddon>
@@ -100,7 +96,7 @@ class LogIn extends Component {
                   <div className="form-log">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText className="iconImg">
-                        <img className="icon" src={passwordIc} />
+                        <img className="icon" src={passwordIc} alt="Icon3Sign" />
                       </InputGroupText>
                       <Input onChange={this.handleChange} type="password" className="input-log" name="password" placeholder="Password" />
                     </InputGroupAddon>
@@ -123,7 +119,7 @@ class LogIn extends Component {
                   <div className="form-log">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText className="iconImg">
-                        <img className="icon" src={emailIc} />
+                        <img className="icon" src={emailIc} alt="icon1Log" />
                       </InputGroupText>
                       <Input onChange={this.handleChange} className="input-log" name="email" placeholder="Email" />
                     </InputGroupAddon>
@@ -132,7 +128,7 @@ class LogIn extends Component {
                   <div className="form-log">
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText className="iconImg">
-                        <img className="icon" src={passwordIc} />
+                        <img className="icon" src={passwordIc} alt="icon2Log" />
                       </InputGroupText>
                       <Input onChange={this.handleChange} type="password" className="input-log" name="password" placeholder="Password" />
                     </InputGroupAddon>

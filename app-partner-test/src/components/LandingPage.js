@@ -8,7 +8,6 @@ import {
   Col, 
   Input, 
   InputGroup, 
-  InputGroupAddon, 
   Button 
 } from 'reactstrap';
 
@@ -32,7 +31,7 @@ class LandingPage extends Component {
 
     this.state = {
       email: ''
-    },
+    }
     this.handleChange = this.handleChange.bind(this);
     this.subscribe = this.subscribe.bind(this);
   }
@@ -80,7 +79,7 @@ class LandingPage extends Component {
             <Col sm="6">
               <Row className="content-1">
                 <Col sm='6'>
-                  <img className="table" src={imgOne} />
+                  <img className="table" src={imgOne} alt="Image1"/>
                 </Col>
                 <Col sm='6'>
                   <h4 className="third-title">Regional Cuisine Down Home Southern Cooking</h4>
@@ -97,7 +96,7 @@ class LandingPage extends Component {
             <Col sm="6">
               <Row className="content-2">
                 <Col sm='6'>
-                  <img className="table" src={imgTwo} />
+                  <img className="table" src={imgTwo} alt="Image2"/>
                 </Col>
                 <Col sm='6'>
                   <h4 className="third-title">Pos Hardware More Options In Less Space</h4>
@@ -117,22 +116,22 @@ class LandingPage extends Component {
           <h3 className="places-title">Maui By Air The Best Way Around The Island</h3>
           <Row className="places-adj">
             <Col sm="3">
-              <img className="table" src={imgThree} />
+              <img className="table" src={imgThree} alt="Image3"/>
               <h5>East Josianefurt</h5>
               <p className="grey-p">085 Daria Via</p>
             </Col>
             <Col sm="3">
-              <img className="table" src={imgFour} />
+              <img className="table" src={imgFour} alt="Image4"/>
               <h5>South Cristopherport</h5>
               <p className="grey-p">162 Chandler Ville</p>
             </Col>
             <Col sm="3">
-              <img className="table" src={imgFive} />
+              <img className="table" src={imgFive} alt="Image5"/>
               <h5>Concepcionbury</h5>
               <p className="grey-p">7643 Kylie Burgs</p>
             </Col>
             <Col sm="3">
-              <img className="table" src={imgSix} />
+              <img className="table" src={imgSix} alt="Image6"/>
               <h5>Reychester</h5>
               <p className="grey-p">5590 Gabe Views Apt. 044</p>
             </Col>

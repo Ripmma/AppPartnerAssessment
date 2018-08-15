@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import { 
-  Jumbotron, 
   Container,
   Collapse,
   Navbar,
@@ -31,8 +30,13 @@ class AppNavbar extends Component {
             <NavbarBrand>
               <NavLink to="/">Reactor</NavLink>
             </NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
+            {
+              this.props.login ?
+                <NavbarToggler onClick={this.toggle} />
+              :
+                <div/>
+            }
+              <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
                   {
