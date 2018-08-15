@@ -2,8 +2,7 @@
 Technical Portion for App Partner
 
 
-# Landing Page 
-# Time: 90 min
+# Landing Page (Time: 90 min)
 
 1. Created React Application and npm installed required react frameworks.
    Time: 5 min
@@ -29,8 +28,7 @@ Technical Portion for App Partner
 4. POST request setup
    Time: 3 min
    
-# Log In/Sign Up
-# Time: 55 Min
+# Log In/Sign Up (Time: 55 Min)
 
 1. Made the layout with navbar
    Time: 10 Min
